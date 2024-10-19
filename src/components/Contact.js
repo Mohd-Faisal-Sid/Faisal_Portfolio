@@ -35,7 +35,10 @@ const Contact = () => {
         <h2 className="text-xl font-bold mb-4">Get In Touch</h2>
           <h2 className="text-4xl font-bold mb-4">Let's Talk For Your <span className="text-red-500">Next Project's</span></h2>
           <p className="mb-6">
-            Discuss a project or just want to say hi? Connect with me via email or through a phone call.
+            Discuss a project or just want to say hi?
+          </p>
+          <p className="mb-6">
+            Connect with me via email or through a phone call.
           </p>
 
           {/* Conditionally rendered contact details */}
@@ -148,6 +151,7 @@ const Contact = () => {
             {/* Submit Button */}
             <button
               type="submit"
+
               className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition duration-300 md:col-span-2"
             >
               Send Message

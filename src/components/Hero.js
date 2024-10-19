@@ -21,7 +21,7 @@ const Hero = () => {
         setDisplayText((prev) => currentTitle.substring(0, prev.length + 1));
         setTypingSpeed(150); // Normal typing speed
       }
-
+      
       // When fully typed, pause, then start deleting
       if (!isDeleting && displayText === currentTitle) {
         setTimeout(() => setIsDeleting(true), 1000); // Pause before deleting
@@ -49,7 +49,10 @@ const Hero = () => {
           {/* Typewriter effect */}
           <p className="mt-4 text-1xl md:text-3xl text-blue-300 font-bold">{displayText}</p>
           <p className="mt-10 text-lg">
-            Dynamic and results-oriented Software Engineer with over 3 years of experience specializing in architecting scalable solutions and leading transformative projects. Proven track record of diagnosing complex challenges, delivering innovative solutions, and fostering collaborative team environments.
+            Dynamic and results-oriented Software Engineer with over 3 years of experience specializing in architecting scalable solutions and leading transformative projects.
+          </p>
+          <p>
+            Proven track record of diagnosing complex challenges, delivering innovative solutions, and fostering collaborative team environments.
           </p>
           <div className="mt-9 flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
             {/* Hire Me Button */}

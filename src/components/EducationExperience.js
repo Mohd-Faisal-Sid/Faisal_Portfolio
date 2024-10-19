@@ -48,7 +48,7 @@ const Education = () => {
     <div className="space-y-6">
       <h2 className="text-2xl font-bold mb-6">Education</h2>
       <div className="border-b pb-4">
-        <h3 className="text-xl font-semibold">Dr. A P J Abdul Kalam Technical University</h3>
+        <h3 className="text-xl font-semibold"><span className="text-red-500">Dr. A P J Abdul Kalam Technical University </span></h3>
         <p className="text-gray-200">B.Tech in Computer Science</p>
         <p className="text-gray-400">Location: Allahabad, India</p>
         <p className="text-gray-200">Key Learnings:</p>
@@ -63,9 +63,10 @@ const Education = () => {
         </p>
       </div>
       <div className="border-b pb-4">
-        <h3 className="text-xl font-semibold">Board of Technical Education</h3>
-        <p className="text-gray-200">Diploma in Electrical & Computer Engineering</p>
+        <h3 className="text-xl font-semibold"><span className="text-red-500">Board of Technical Education</span></h3>
+        <h3 className="text-gray-200">Diploma in Electrical & Computer Engineering</h3>
         <p className="text-gray-400">Location: Agra, India</p>
+        <p className="text-gray-200">Key Learnings:</p>
         <p className="mt-2 text-gray-400">
         <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Circuit Design & Analysis: Gained foundational knowledge in electrical circuit design,simulation, and analysis, understanding the role of hardware in computing systems.</p>
         <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Microcontrollers & Embedded Systems: Developed a strong understanding of microcontrollers and embedded systems, including programming microcontroller-based devices using C/C .</p>
@@ -102,11 +103,11 @@ const Experience = () => {
         <h3 className="text-2xl font-semibold">Softmind Infotech Pvt Ltd</h3>
         <p className="text-gray-200">Duration: September 2022 - August 2023</p>
         <p className="mt-2 text-gray-400">
-        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/> Design, write, read, test, and correct code for new software.</p>
+        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Design, write, read, test, and correct code for new software.</p>
         <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Collaborated with cross-functional teams to design, develop, and implement front-end solutions, improving user experience and overall performance.</p>
-        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/> Write, modify, integrate and test software code for e-commerce, Internet and mobile applications</p>
+        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Write, modify, integrate and test software code for e-commerce, Internet and mobile applications</p>
         <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Develop, implement, modify and maintain gameplay features that integrate effectively into existing software</p>
-        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/> Maintained web applications using HTML, CSS, JavaScript, and React.js, ensuring responsive and user-friendly designs.</p>
+        <p><FaArrowAltCircleRight className="inline text-red-500 mr-2"/>Maintained web applications using HTML, CSS, JavaScript, and React.js, ensuring responsive and user-friendly designs.</p>
         </p>
       </div>
       <div className="border-b pb-4">

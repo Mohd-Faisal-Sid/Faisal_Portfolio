@@ -5,7 +5,7 @@ import { SiTailwindcss, SiSpringboot, SiVisualstudiocode } from 'react-icons/si'
 
 const ProfessionalSkills = () => {
   const [popupInfo, setPopupInfo] = useState(null); // Track the currently hovered skill for pop-up
-
+  
   const skills = [
     { name: 'HTML', icon: <FaHtml5 className="text-orange-600" />},
     { name: 'CSS', icon: <FaCss3Alt className="text-blue-600" /> },
